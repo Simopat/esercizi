@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Title" />
+    <title>Esercizio5</title>
+  </head>
+  <body>
+    <form>
+      <label for="email">Inserisci qui il tuo indirizzo e-mail</label><br />
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="example@gmail.com"
+        required
+      />
+      <hr />
+      <label for="password"> Password </label><br />
+      <input type="password" id="password" name="password" required />
+      <h2>Dati personali</h2>
+      <label for="name">Nome</label>
+      <input type="text" id="Name" name="Nome" required />
+      <label for="Surname">Cognome</label>
+      <input type="text" id="Surname" name="cognome" required />
+      <hr />
+      <label for="Date">Data di nascita</label><br />
+      <input type="date" id="Birthdate" name="data di nascita" required/>
+      <hr />
+      <label for="number">Numero di telefono </label><br />
+      <input type="tel" id="Telnumb" name="numero di telefono" required/>
+      <hr />
+      <h2>Offerta</h2>
+      <label for="Tariffe"> Tariffe </label>
+      <select id="Tariffe" name="Tariffe" required>
+        <option value="Gold class">Gold class</option>
+        <option value="Silver class">Silver class</option>
+        <option value="Bronze class">Bronze class</option>
+      </select>
+      <label for="Offerta"> Offerta deluxe</label>
+      <input type="checkbox" id="check" name="spunta" value="yes" required />
+      <hr />
+      <h2>Metodo di pagamento</h2>
+      <label for="Creditcard">Carta di credito </label>
+      <input
+        type="text"
+        id="creditcardID"
+        name="carta di credito"
+        maxlength="16"
+        required
+      />
+      <hr />
+      <label for="CVC">Inserisci il cvc</label>
+      <input type="text" id="CVC" name="CVC" maxlength="3" required />
+      <hr />
+      <label for="Data di scadenza">Data di scadenza</label>
+      <input type="date" id="Expiration date" name="Datascadenza" /><br
+        required
+      />
+      <hr />
+      <label for="Billing address">Indirizzo fatturazione</label>
+      <input type="text" id="Billing address" name="billingadd" required />
+    </form>
+  </body>
+</html>
