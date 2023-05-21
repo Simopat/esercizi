@@ -1,0 +1,39 @@
+/*pulsante reset*/
+
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing:border-box;
+}
+
+header {
+    background-color :  blue;
+
+}
+
+nav {
+    display : flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+
+ul {
+    display:flex;
+    justify-content: center;
+    list-style: none;
+    gap:10px
+}
+
+body{
+    background-color: yellow;
+}
+
+
+aside{
+    background-color: crimson;
+    width: 30%;
+    height: 100vh
+}
+
+

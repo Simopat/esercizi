@@ -1,0 +1,12 @@
+header{
+    color: greenyellow
+}
+
+li{
+    border-style: dashed;
+}
+
+li { 
+    border-style: unset;
+    border-color: grey;
+}
