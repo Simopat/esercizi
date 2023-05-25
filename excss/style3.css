@@ -50,11 +50,18 @@ li:nth-child(5) a {
     margin-left: 100px;
 }
 
+
+
 .searchtext{
     height: 25px;
     border: none;
     outline: none;
     border-radius: 5px;
+}
+
+.searchtext:hover{
+    background-color: green;
+    color: white;
 }
 
 .button {
@@ -89,6 +96,7 @@ ul{
     display:none;
 }
  .menu {
+    margin-left: 5px;
     font-size: larger ;
     display: inline-block;
     margin-bottom: 15px;
