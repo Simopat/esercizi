@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    display:flex;
+    align-items: stretch;
+
+}
+
+#red{
+    order: 2;
+}
+
+#green{
+    order: 3;
+}
+
+#yellow{
+    order: 1;
+}
+
+#orange{
+    order: 4 ;
+    width: 300px;
+}
+#blue{
+    order: 5;
+}
